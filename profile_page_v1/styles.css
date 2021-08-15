@@ -287,10 +287,18 @@ a.social:hover {
   display: flex;
   max-width: 1200px;
   flex-direction: column;
+  transition: all .5s;
 }
 
 .hobbies-photo{
   max-width: 800px;
-  margin-top: 100px;
+  margin-top: 50px;
+  border: seashell;
+  border-radius: 0.5em;
+  transition: all .5s;
+}
+
+.hobbies-photo:hover{
+  transform:scale(1.2);
 }
 }
