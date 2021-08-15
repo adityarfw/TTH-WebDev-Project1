@@ -1,7 +1,1 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generate more at customizr.net -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg id="linkedin" class="custom-icon" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 100"><circle class="outer-shape" cx="50" cy="50" r="48" style="opacity: 1; fill: rgb(3, 153, 255);"></circle>
-	<path class="inner-shape" style="opacity:1;fill:#f7f7f7;" transform="translate(25,25) scale(0.5)" d="M82.539,1H17.461C8.408,1,1,8.408,1,17.461v65.078C1,91.592,8.408,99,17.461,99h65.078C91.592,99,99,91.592,99,82.539 V17.461C99,8.408,91.592,1,82.539,1z M37.75,80.625H25.5V37.75h12.25V80.625z M31.625,31.625c-3.383,0-6.125-2.742-6.125-6.125 s2.742-6.125,6.125-6.125s6.125,2.742,6.125,6.125S35.008,31.625,31.625,31.625z M80.625,80.625h-12.25v-24.5 c0-3.383-2.742-6.125-6.125-6.125s-6.125,2.742-6.125,6.125v24.5h-12.25V37.75h12.25v7.606c2.526-3.47,6.389-7.606,10.719-7.606 c7.612,0,13.782,6.856,13.782,15.312L80.625,80.625L80.625,80.625z"></path>
-</svg>
-
+<svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="48px" height="48px"><path fill="#0288d1" d="M24 4A20 20 0 1 0 24 44A20 20 0 1 0 24 4Z"/><path fill="#fff" d="M14 19H18V34H14zM15.988 17h-.022C14.772 17 14 16.11 14 14.999 14 13.864 14.796 13 16.011 13c1.217 0 1.966.864 1.989 1.999C18 16.11 17.228 17 15.988 17zM35 24.5c0-3.038-2.462-5.5-5.5-5.5-1.862 0-3.505.928-4.5 2.344V19h-4v15h4v-8c0-1.657 1.343-3 3-3s3 1.343 3 3v8h4C35 34 35 24.921 35 24.5z"/></svg>

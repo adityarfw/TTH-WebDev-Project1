@@ -1,15 +1,19 @@
 /* Global Layout Set-up */
-* { 
+* {
   box-sizing: border-box;
 }
-  
+
 body {
   margin: 0;
   padding: 0;
   text-align: center;
   font-family: 'Roboto', sans-serif;
   color: #222;
-  background: #f7f5f0;
+  background:rgb(240, 200, 202);
+}
+#main-content{
+  padding: 0.5em;
+  background: #e4ebd7;
 }
 /* Link Styles */
 
@@ -57,7 +61,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url('images/nathanPhillips_bg.jpg') no-repeat bottom center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -83,12 +87,12 @@ header .profile-image:hover {
   border-radius: 5px;
   display: table;
   margin: 10px auto;
-} 
+}
 .location {
   background-color: #222;
-  color: yellow;
+  color: rgb(245, 103, 110);
 }
-.card {
+.card1 {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
@@ -97,9 +101,30 @@ header .profile-image:hover {
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
   transition: all .5s;
+  background: #4AC29A;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #9dfae9, #4AC29A);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #9dfae9, #4AC29A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /* https://uigradients.com/#Relaxingred */
 }
-.card:hover {
-  border-color: #ff99ff;
+.card2 {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align: left;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+  background: #C9D6FF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #dee5ff, #C9D6FF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #dee5ff, #C9D6FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+/* https://uigradients.com/#Jonquil */
+}
+.card1:hover {
+  transform: scale(1.1);
+}
+.card2:hover {
+  transform: scale(1.1);
 }
 
 ul.skills {
@@ -123,7 +148,7 @@ ul.skills {
 footer {
   width: 100%;
   min-height: 30px;
-  padding: 20px 0 40px 20px;
+  padding: 20px 0 20px 20px;
 }
 
 footer .copyright {
@@ -151,6 +176,9 @@ a.social {
   opacity: .4;
   transition: all .5s;
 }
+.social:hover{
+  transform: scale(1.4);
+}
 a.twitter {
   background-image: url(images/twitter.svg);
 }
@@ -169,10 +197,10 @@ a.social:hover {
 
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
-  
+
   .flex {
       display: -ms-flexbox;      /* TWEENER - IE 10 */
-      display: flex; 
+      display: flex;
       max-width: 1200px;
       -ms-flex-pack: distribute;
       justify-content: space-around;
@@ -200,8 +228,7 @@ a.social:hover {
   footer {
     font-size: 1.3em;
     max-width: 1200px;
-    margin: 40px auto;
+    margin: 20px auto;
   }
 
 }
-
