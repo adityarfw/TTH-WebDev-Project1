@@ -78,7 +78,7 @@ header .profile-image {
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.1) rotate(360deg);
 }
 .tag {
   background-color: #efefef;
@@ -135,14 +135,14 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: #ff9904;
+  background: yellowgreen;
   color: white;
   padding: 5px 10px;
   margin: 2px;
 }
 
-.skills li:nth-child(odd) {
-  background: #0399ff;
+.skills li.skills-to-learn {
+  background: orangered;
 }
 
 footer {
@@ -299,6 +299,6 @@ a.social:hover {
 }
 
 .hobbies-photo:hover{
-  transform:scale(1.2);
+  transform:scale(1.1);
 }
 }
